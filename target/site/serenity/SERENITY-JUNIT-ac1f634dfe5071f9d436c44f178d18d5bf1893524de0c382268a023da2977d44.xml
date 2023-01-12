@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="Testing different request on the product information" skipped="0" tests="2" time="8.89" timestamp="2023-01-10T13:03:15.296Z[Europe/London]"><testcase name="Check if the product information can be accessed by users"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+com.bestbuy.cucumber.steps.ProductStepdefs.userMustGetBackAValidStatusCode(ProductStepdefs.java:36)&#13;
+✽.Then User must get back a valid status code 200(src/test/java/resources/feature/product.feature:5)&#13;
+</system-err></testcase><testcase name="Create a new product &amp; verify if the product is added"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.cucumber.steps.ProductStepdefs.iVerifyThatTheProductWithIsCreated(ProductStepdefs.java:49)&#13;
+✽.Then I verify that the product with "&lt;productID&gt;" is created(src/test/java/resources/feature/product.feature:9)&#13;
+</system-err></testcase></testsuite>

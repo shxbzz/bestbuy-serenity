@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Store CRUD test with steps","This will create new product","FAILURE","2023-01-08T16:16:46.740Z[Europe/London]","0.0","0.43"
+"Store CRUD test with steps","Verify if the product was added to application","FAILURE","2023-01-08T16:16:47.176Z[Europe/London]","0.0","0.52"
+"Store CRUD test with steps","This will update product","FAILURE","2023-01-08T16:16:48.701Z[Europe/London]","0.0","0.37"
+"Store CRUD test with steps","This will delete product","FAILURE","2023-01-08T16:16:49.086Z[Europe/London]","0.0","0.27"
